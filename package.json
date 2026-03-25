@@ -1,0 +1,35 @@
+{
+  "name": "@0biwank/getsystemaudio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp configure build",
+    "rebuild": "node-gyp rebuild",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "system audio",
+    "audio level",
+    "macOS",
+    "node.js",
+    "native addon"
+  ],
+  "author": "Kunal Dubey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xakep8/getSystemAudio.git"
+  },
+  "os": [
+    "darwin"
+  ],
+  "description": "A Node.js module to get the system audio level on MacOS.",
+  "dependencies": {
+    "node-addon-api": "^8.6.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^12.2.0"
+  }
+}

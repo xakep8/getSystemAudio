@@ -1,0 +1,41 @@
+# Source files (users will get compiled binary only)
+src/
+include/
+deps/
+
+# Development files
+.git/
+.gitignore
+.github/
+.vscode/
+.idea/
+
+# Test files
+test.js
+*.test.js
+
+# Build configuration
+binding.gyp
+.gyp-build-fingerprint
+
+# Documentation source
+architecture.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Build intermediates (keep only Release binary)
+build/config.gypi
+build/Makefile
+build/*.mk
+build/gyp-mac-tool
+build/Release/obj.target/
+build/Release/.deps/
