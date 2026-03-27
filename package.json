@@ -2,6 +2,7 @@
   "name": "@0biwank/getsystemaudio",
   "version": "1.0.0",
   "main": "index.js",
+  "types": "index.d.ts",
   "type": "module",
   "gypfile": true,
   "scripts": {
