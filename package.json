@@ -4,8 +4,19 @@
   "main": "index.js",
   "types": "index.d.ts",
   "type": "module",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "pcm-ring-buffer.js",
+    "binding.gyp",
+    "src/",
+    "include/",
+    "examples/audio-worklet/",
+    "README.md"
+  ],
   "gypfile": true,
   "scripts": {
+    "install": "node-gyp rebuild",
     "build": "node-gyp configure build",
     "rebuild": "node-gyp rebuild",
     "test": "node test.js"
@@ -28,9 +39,7 @@
   ],
   "description": "A Node.js module to get the system audio level on MacOS.",
   "dependencies": {
-    "node-addon-api": "^8.6.0"
-  },
-  "devDependencies": {
+    "node-addon-api": "^8.6.0",
     "node-gyp": "^12.2.0"
   }
 }

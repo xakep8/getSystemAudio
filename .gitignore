@@ -1,2 +1,22 @@
-node_modules
-build
+node_modules/
+build/
+recordings/
+
+# npm/yarn/pnpm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Packed artifacts
+*.tgz
+
+# Environment files
+.env
+.env.local
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
