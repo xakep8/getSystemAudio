@@ -276,26 +276,6 @@ If you only get fallback frames:
    - Terminal, iTerm, or Electron app bundle
 3. Fully restart that app after changing permission.
 
-## Publishing Checklist
-
-Before npm publish:
-
-1. Ensure build artifacts and source layout match your publish strategy.
-2. Verify package.json fields:
-   - main
-   - types
-   - files (recommended)
-3. Confirm .npmignore includes only what you want excluded.
-4. Run:
-
-```bash
-npm run rebuild
-npm test
-npm pack
-```
-
-5. Inspect tarball contents from npm pack output.
-
 ## License
 
 MIT
